@@ -2,7 +2,10 @@ package com.fju.member;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 public class GenderActivity extends AppCompatActivity {
 
@@ -11,4 +14,5 @@ public class GenderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gender);
     }
+
 }
